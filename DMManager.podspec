@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DMManager"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Description of DMManager will be soon."
   s.homepage     = "https://github.com/alexj70/DMManager"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
