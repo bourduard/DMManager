@@ -1,0 +1,2 @@
+platform :ios, '7.0'
+pod 'DMManager', :path => '~/Documents/DMManager/DMManager.podspec'

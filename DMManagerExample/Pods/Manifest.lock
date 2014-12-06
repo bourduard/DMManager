@@ -1,0 +1,14 @@
+PODS:
+  - DMManager (0.0.1)
+
+DEPENDENCIES:
+  - DMManager (from `~/Documents/DMManager/DMManager.podspec`)
+
+EXTERNAL SOURCES:
+  DMManager:
+    :path: ~/Documents/DMManager/DMManager.podspec
+
+SPEC CHECKSUMS:
+  DMManager: fdebe13553803bd0cb30fad32091ab1dae60c555
+
+COCOAPODS: 0.35.0
