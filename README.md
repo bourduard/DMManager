@@ -1,0 +1,4 @@
+DMManager
+=========
+
+Core Data Manager
