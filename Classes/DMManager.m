@@ -101,9 +101,8 @@
     NSManagedObjectContext *managedObjectContext = self.defaultContext;
     if (managedObjectContext != nil) {
         if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
-            [[NSFileManager defaultManager] removeItemAtURL:[self storeURL] error:nil];
             NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
-            abort();
+//            abort();
         }
     }
 }
