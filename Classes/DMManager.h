@@ -2,7 +2,7 @@
 //  DMManager.h
 //  MSDCatalog
 //
-//  Created by Александр Жовтый on 09.02.13.
+//  Created by Alexandr Zhovty on 09.02.13.
 //  Copyright (c) 2013 Alex. All rights reserved.
 //
 

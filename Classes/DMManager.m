@@ -2,7 +2,7 @@
 //  DMManager.m
 //  MSDCatalog
 //
-//  Created by Александр Жовтый on 09.02.13.
+//  Created by Alexandr Zhovty on 09.02.13.
 //  Copyright (c) 2013 Alex. All rights reserved.
 //
 
@@ -22,22 +22,9 @@
 
 
 #pragma mark - Initialization
-//
-//- (id)init
-//{
-//    self = [super init];
-//    if (self) {
-//        [DMCategory serializeCategories:nil];
-//    }
-//    return self;
-//}
-
-- (instancetype)init
-{
+- (instancetype)init {
     self = [super init];
     if (self) {
-        NSLog(@"%s %@", __FUNCTION__, [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleExecutable"]);
-        
         _dataBaseName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleExecutable"];
     }
     return self;
